@@ -319,7 +319,7 @@
   .c-row .k { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
   .c-row .v { font-weight: 700; font-size: 18px; color: var(--navy); }
   .c-row .v small { display: block; font-weight: 400; font-size: 14px; color: var(--muted); }
-  .c-row .v a { color: var(--navy); }
+  .c-row .v a { color: var(--navy); display: block; }
   form.lead { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 28px; }
   form.lead h3 { margin-bottom: 6px; }
   form.lead .fh { color: var(--muted); font-size: 15px; margin-bottom: 18px; }
@@ -755,7 +755,7 @@
         </div>
         <div class="c-row">
           <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg></span>
-          <div><div class="k">Email</div><div class="v"><a href="mailto:hello@chucktowncrawlspace.com">hello@chucktowncrawlspace.com</a><small>Same-day reply during business hours</small></div></div>
+          <div><div class="k">Email</div><div class="v"><a href="mailto:hello@chucktowncrawlspace.com">hello@chucktowncrawlspace.com</a><a href="mailto:zach@chucktowncrawlspace.com">zach@chucktowncrawlspace.com</a><small>Same-day reply during business hours</small></div></div>
         </div>
         <div class="c-row">
           <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>
@@ -772,6 +772,7 @@
         <p class="fh">I'll text or call you back the same day with next steps. No charge, no pressure.</p>
 
         <input type="hidden" name="_subject" value="New crawlspace inspection request — chucktowncrawlspace.com" />
+        <input type="hidden" name="_cc" value="zach@chucktowncrawlspace.com" />
         <input type="hidden" name="_template" value="table" />
         <input type="hidden" name="_captcha" value="false" />
         <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
